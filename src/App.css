@@ -1,0 +1,292 @@
+header {
+  width: 100%;
+  height: 15%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 2px solid;
+
+  padding: 0% 2%;
+
+  background-color: #808185;
+}
+
+.title {
+  font-size: 500%;
+  font-weight: bold;
+}
+
+.search-box {
+
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-name {
+  width: 50%;
+  height: 50%;
+
+  border: 2px solid;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+  padding: 0% 5%;
+
+  font-size: 150%;
+}
+
+.submit-btn {
+  width: 30%;
+  height: 50%;
+
+  border: 2px solid;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  font-size: 125%;
+
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #97989c;
+}
+
+.weather-container {
+  width: 60%;
+  height: 60%;
+
+  border: 2px solid;
+  border-radius: 20px;
+
+  margin-top: 5%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #808185;
+  
+  position: relative;
+}
+
+.click {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+
+  cursor: pointer;
+}
+
+.weather-box {
+  width: 30%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wind {
+  width: 90%;
+  height: 45%;
+
+  border: 2px solid;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #97989c;
+}
+
+.wind-heading {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.wind-contents {
+  width: 100%;
+  height: 60%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wind-box {
+  width: 45%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-size: 125%;
+  font-weight: 500;
+}
+
+.arrow-icon {
+  width: 50%;
+}
+
+.pressure-precipitation {
+  width: 100%;
+  height: 45%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pressure {
+  width: 45%;
+  height: 100%;
+
+  border: 2px solid;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #97989c;
+}
+
+.pressure-heading {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.pressure-icon {
+  width: 50%;
+}
+
+.pressure-value {
+  font-size: 125%;
+  font-weight: 500;
+}
+
+.precipitation {
+  width: 45%;
+  height: 100%;
+
+  border: 2px solid;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #97989c;
+}
+
+.precipitation-heading {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.precipitation-icon {
+  width: 50%;
+}
+
+.precipitation-value {
+  font-size: 125%;
+  font-weight: 500;
+}
+
+.temperature {
+  font-size: 300%;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.state-country {
+  font-size: 100%;
+}
+
+.lat-lon {
+  font-size: 85%;
+}
+
+.condition-box-image {
+  width: 50%;
+
+  border: 2px solid;
+  border-radius: 20px;
+
+  background-color: black;
+}
+
+.condition-box-text {
+  font-weight: 500;
+  font-size: 120%;
+}
+
+.humidity-cloud-dew,
+.vision-uv-gust { 
+  width: 90%;
+  height: 45%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.humidity,
+.cloud-cover,
+.dew-point,
+.vision,
+.uv,
+.gust {
+  border: 2px solid;
+  border-radius: 20px;
+
+  width: 90%;
+  height: 25%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #97989c;
+}
+
+.humidity-icon,
+.cloud-cover-icon,
+.dew-point-icon,
+.vision-icon,
+.uv-icon,
+.gust-icon {
+  height: 50%;
+  margin: 0% 3%;
+}
