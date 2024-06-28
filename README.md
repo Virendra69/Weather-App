@@ -1,8 +1,5 @@
-# React + Vite
+# <img src="https://github.com/Virendra69/Weather-App/blob/main/src/assets/weather_favicon/apple-touch-icon.png" width=40px /> Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This weather app allows a person to view the weather of any location.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<a href="https://667e9495ca7a2b11d59628cb--snazzy-gaufre-1a0779.netlify.app/" target="_blank">View Site</a>
